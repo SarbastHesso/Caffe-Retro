@@ -14,8 +14,11 @@ a , h1 {
     font-family: 'Spirax', sans-serif;
 }
 
+/* repeated classes  */
+
 section {
     height: 100vh;
+    position: relative;
 }
 
 .container {
@@ -47,6 +50,7 @@ section {
     color: #ffffff;
     width: 660px;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .p-2 {
@@ -64,8 +68,9 @@ section {
 ul {
     align-self: center;
     background-color: #000000;
+    opacity: .8;
     width: 660px;
-    padding: 1.5rem 3rem;
+    padding: 1.3rem 3rem;
 }
 
 ul li {
@@ -104,6 +109,20 @@ header nav a {
 .hot-background {
     height: 100%;
     background-image: url("hot.jpg");
+    background-size: cover;
+}
+
+/* the second section/juicy  */
+.juicy-background {
+    height: 100%;
+    background-image: url("juicy.jpg");
+    background-size: cover;
+}
+
+/* the third section/cosy  */
+.cosy-background {
+    height: 100%;
+    background-image: url("cosy.jpg");
     background-size: cover;
 }
 
