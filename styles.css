@@ -14,10 +14,73 @@ a , h1 {
     font-family: 'Spirax', sans-serif;
 }
 
+section {
+    height: 100vh;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    left: 10%;
+}
+
+.section-title {
+    font-size: 6rem;
+    color: rgb(159, 3, 3);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.p-1 {
+    background-color: rgb(159, 3, 3);
+    opacity: .8;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    width: 660px;
+    margin-bottom: 2rem;
+}
+
+.p-2 {
+    background-color: rgb(159, 3, 3);
+    opacity: .8;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    width: 660px;
+    text-align: center;
+    align-self: flex-end;
+    margin-bottom: 2rem;
+}
+
+ul {
+    align-self: center;
+    background-color: #000000;
+    width: 660px;
+    padding: 1.5rem 3rem;
+}
+
+ul li {
+    list-style: none;
+    color: #ffffff;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* header styling  */
 header {
     background-color: #130010ea;
-    opacity: .7;
+    opacity: .8;
     position: fixed;
     top: 0;
     left: 0;
@@ -36,3 +99,13 @@ header nav a {
     font-size: 2.5rem;
     padding: 1rem 3rem;
 }
+
+/* the first section/hot  */
+.hot-background {
+    height: 100%;
+    background-image: url("hot.jpg");
+    background-size: cover;
+}
+
+
+
