@@ -90,6 +90,7 @@ header nav a {
 .section-title {
     font-size: 6rem;
     color: rgb(159, 3, 3);
+    font-weight: bold;
 }
 
 .p-1 {
@@ -142,7 +143,7 @@ ul li {
 }
 
 .section-title {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 }
@@ -159,14 +160,23 @@ ul li {
 }
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 450px){
+    .container {
+        width: 90%;
+    }
+
     header nav a {
     padding: 1rem;
+}
+
+.flex .p-1 {
+    display: none;
 }
 
 .flex {
     gap: 1.5rem;
     font-size: 1rem;
+    font-weight: 500;
 }
 
 #cosy  ul li:last-of-type {
